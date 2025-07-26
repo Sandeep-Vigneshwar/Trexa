@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "temp_graph_test_dir_json",
+      "label": "temp_graph_test_dir_json",
+      "type": "folder",
+      "color": "rgba(93, 109, 126, 0.8)"
+    },
+    {
+      "id": "temp_graph_test_dir_json\\documents",
+      "label": "documents",
+      "type": "folder",
+      "color": "rgba(93, 109, 126, 0.8)"
+    },
+    {
+      "id": "temp_graph_test_dir_json\\images",
+      "label": "images",
+      "type": "folder",
+      "color": "rgba(93, 109, 126, 0.8)"
+    },
+    {
+      "id": "temp_graph_test_dir_json\\documents\\work",
+      "label": "work",
+      "type": "folder",
+      "color": "rgba(93, 109, 126, 0.8)"
+    },
+    {
+      "id": "temp_graph_test_dir_json\\documents\\notes.txt",
+      "label": "notes.txt",
+      "type": "file",
+      "color": "rgba(52, 152, 219, 0.8)",
+      "size": 0.01,
+      "timestamp": "2025-07-26T12:41:46.580088"
+    },
+    {
+      "id": "temp_graph_test_dir_json\\documents\\report.docx",
+      "label": "report.docx",
+      "type": "file",
+      "color": "rgba(52, 152, 219, 0.8)",
+      "size": 0.01,
+      "timestamp": "2025-07-26T12:41:46.580088"
+    },
+    {
+      "id": "temp_graph_test_dir_json\\documents\\work\\project_plan.pdf",
+      "label": "project_plan.pdf",
+      "type": "file",
+      "color": "rgba(52, 152, 219, 0.8)",
+      "size": 0.01,
+      "timestamp": "2025-07-26T12:41:46.580088"
+    },
+    {
+      "id": "temp_graph_test_dir_json\\images\\vacation",
+      "label": "vacation",
+      "type": "folder",
+      "color": "rgba(93, 109, 126, 0.8)"
+    },
+    {
+      "id": "temp_graph_test_dir_json\\images\\photo.jpg",
+      "label": "photo.jpg",
+      "type": "file",
+      "color": "rgba(52, 152, 219, 0.8)",
+      "size": 0.01,
+      "timestamp": "2025-07-26T12:41:46.580088"
+    }
+  ],
+  "links": [
+    {
+      "source": "temp_graph_test_dir_json",
+      "target": "temp_graph_test_dir_json\\documents",
+      "relationship": "contains"
+    },
+    {
+      "source": "temp_graph_test_dir_json",
+      "target": "temp_graph_test_dir_json\\images",
+      "relationship": "contains"
+    },
+    {
+      "source": "temp_graph_test_dir_json\\documents",
+      "target": "temp_graph_test_dir_json\\documents\\work",
+      "relationship": "contains"
+    },
+    {
+      "source": "temp_graph_test_dir_json\\documents",
+      "target": "temp_graph_test_dir_json\\documents\\notes.txt",
+      "relationship": "contains"
+    },
+    {
+      "source": "temp_graph_test_dir_json\\documents",
+      "target": "temp_graph_test_dir_json\\documents\\report.docx",
+      "relationship": "contains"
+    },
+    {
+      "source": "temp_graph_test_dir_json\\documents\\work",
+      "target": "temp_graph_test_dir_json\\documents\\work\\project_plan.pdf",
+      "relationship": "contains"
+    },
+    {
+      "source": "temp_graph_test_dir_json\\images",
+      "target": "temp_graph_test_dir_json\\images\\vacation",
+      "relationship": "contains"
+    },
+    {
+      "source": "temp_graph_test_dir_json\\images",
+      "target": "temp_graph_test_dir_json\\images\\photo.jpg",
+      "relationship": "contains"
+    }
+  ]
+}

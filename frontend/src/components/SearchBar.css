@@ -1,0 +1,17 @@
+.result-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.result-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.result-card .snippet {
+  color: #555;
+  font-size: 14px;
+}

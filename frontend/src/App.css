@@ -1,0 +1,139 @@
+body {
+  background: linear-gradient(135deg, #18181b 0%, #23234a 100%);
+  color: #e0e0e0;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+  background: transparent;
+  box-sizing: border-box;
+  padding: 2rem 0;
+}
+
+h1 {
+  text-align: center;
+  color: #39ff14;
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.workflow-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 2em;
+  width: 100%;
+  max-width: 1200px;
+}
+
+input[type="text"] {
+  flex: 2 1 0;
+  min-width: 350px;
+  max-width: 700px;
+  padding: 12px 18px;
+  font-size: 1.1rem;
+  background: #23234a;
+  color: #39ff14;
+  border: 2px solid #39ff14;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0 0 4px #39ff1444;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+input[type="text"]:focus, input[type="text"]:hover {
+  border-color: #39ff14;
+  box-shadow: 0 0 8px #39ff1488;
+}
+
+button {
+  padding: 12px 18px;
+  font-size: 1.1rem;
+  font-family: inherit;
+  background: #23234a;
+  color: #39ff14 !important;
+  border: 2px solid #39ff14;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #39ff1444;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  min-width: 100px;
+  max-width: 180px;
+  width: auto;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, border-color 0.2s;
+  background-clip: padding-box;
+}
+button:hover, button:focus {
+  background: #18181b;
+  color: #39ff14 !important;
+  box-shadow: 0 0 16px #39ff1488;
+  border: 2px solid #39ff14;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.result-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.result-card {
+  background: #2ed411;
+  color: #18181b;
+  border: 2px solid #23234a;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #39ff1444;
+  padding: 1.5rem 2rem;
+  width: 100%;
+  max-width: 700px;
+  font-size: 1.1rem;
+  transition: box-shadow 0.2s, border-color 0.2s, color 0.2s, background 0.2s;
+  font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+  text-shadow: none;
+}
+.result-card:hover {
+  border-color: #39ff14;
+  box-shadow: 0 0 16px #23234a88;
+  color: #39ff14;
+  background: #23234a;
+}
+
+.App .status-message {
+  color: #39ff14;
+  text-shadow: 0 0 4px #39ff1444;
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+}
+.App .error-message {
+  color: #ff00c8;
+  text-shadow: 0 0 4px #ff00c844;
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+}
+
+::-webkit-scrollbar {
+  width: auto;
+  background: initial;
+}
+::-webkit-scrollbar-thumb {
+  background: initial;
+  border-radius: initial;
+}
