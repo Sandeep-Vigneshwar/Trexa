@@ -71,7 +71,7 @@
 
 ---
 
-## 🧪 Running Locally
+## Running Locally
 
 ```bash
 # Clone the repo
