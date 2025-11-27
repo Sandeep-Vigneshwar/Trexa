@@ -1,6 +1,6 @@
 # TREXA
 
-**Trexa** is a full-stack, AI-powered semantic file search and visualization tool. It enables users to **intelligently search through their local directories** and **interactively explore their file structure** in 3D.
+A full-stack, AI-powered semantic file search and visualization tool. It enables users to intelligently search through their local directories and interactively explore their file structure in 3D.
 
 ---
 
@@ -13,7 +13,7 @@
 
 ### -> Semantic Search
 - Search using natural language queries like _"lecture notes on reinforcement learning"_.
-- Returns top most relevant files ranked by semantic similarity — not just keyword matches.
+- Returns top most relevant files ranked by semantic similarity, not just keyword matches.
 - Displays metadata such as file name, full path, and relevance score.
 
 ### -> 3D Visualization
