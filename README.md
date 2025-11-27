@@ -1,4 +1,4 @@
-# << Trexa >>
+# TREXA
 
 **Trexa** is a full-stack, AI-powered semantic file search and visualization tool. It enables users to **intelligently search through their local directories** and **interactively explore their file structure** in 3D.
 
