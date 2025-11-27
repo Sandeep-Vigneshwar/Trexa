@@ -81,7 +81,7 @@ cd Trexa
 # Start backend (FastAPI)
 cd backend
 pip install -r requirements.txt
-uvicorn main.app:app --port:8080 --reload
+uvicorn app.main:app --port 8080 --reload
 
 # Start frontend
 cd ../frontend
